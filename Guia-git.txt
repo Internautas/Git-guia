@@ -5,6 +5,7 @@ Empezar en git:
 	1. Abrir el terminal, crear una carpeta donde quieras el repositorio y dirígete desde la terminal
 		⁃Comandos para manejarnos por el terminal (UNIX)
 			⁃ls : listar para ver todos los archivos de ese directorio.
+			-ls -all : lista todos los archivos incluidos los que empiezan con punto.
 			⁃cd : cambiar de directorio.
 			⁃cd ..  : para volver atrás en el directorio.
 			⁃touch : crea un archivo vacío.
@@ -43,7 +44,7 @@ Comandos Git:
 - git diff : para saber las diferencias en un commit (en el/los archivos) ej: git diff HEAD
 - git log : para ver los cambios(todos los commits) y su HEAD.
 - git reset : para unstage archivos ej: git reset archivo.txt
-- git branch : para hacer una rama copia de la master (o superior) y poder trabajar en ella en paralelo.
+- git branch : para hacer una rama copia de la master (o superior) y poder trabajar en ella en paralelo. ej: git branch guia_
 - git branch -d <branch name> : para eliminar un branch.
 - git checkout : para cambiar de rama. REVISAR
 - git merge: para unir tu rama a otra. ej: git merge rama2
@@ -72,6 +73,8 @@ Atributos
 --staged : para referirse al estado index por ej: git diff --staged
 
 rm : remove
+
+rm -rf .git : para eliminar un git init
 
 
 
